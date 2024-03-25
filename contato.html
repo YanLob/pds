@@ -46,11 +46,6 @@
         font-size: 18px;
     }
 
-    ul{
-        color: aliceblue;
-        width: 800px;
-    }
-
     div{
         padding-left: 11px;
     }
@@ -61,11 +56,6 @@
         height: 480px;
         width: 900px;
         border-radius: 20px;
-
-    }
-
-    .whats{
-        color: rgb(66, 145, 35);
     }
 
     h1{
@@ -81,6 +71,49 @@
         font-size: 18px;
         width: 800px;
         font-family: Arial;
+    }
+
+    .ababa{
+        margin: 0;
+        margin-left: 40px;
+        font-size: 15px;
+    }
+
+    .cont{
+        font-size: 35px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    form, label{
+        background-color: rgb(110, 107, 210);
+        color: aliceblue;
+        margin-left: 20px;
+    }
+
+    input{
+        background-color: rgb(131, 129, 224);
+        border: 0;
+        border-radius: 5px;
+        color: aliceblue;
+        padding: 3px;
+        margin-bottom: 5px;
+    }
+
+    textarea{
+        background-color: rgb(131, 129, 224);
+        margin-left: 100px;
+        color: aliceblue;
+    }
+
+    .enviar{
+        width: 70px;
+        padding: 5px;
+        font-size: 17px;
+    }
+
+    .enviar:hover{
+        transition-duration: 700ms;
+        background-color: rgb(87, 86, 153);
     }
     </style>
 
@@ -98,11 +131,21 @@
     <hr>
 
    <div class="contato">
-    <h1>Email: script.crs@gmail.com.br</h1>
-    <br><br>
-    <br><br>
-    <h1 class="whats">Whatsapp: (96) 3248-0506</h1>
-    <p>Caso tenha alguma duvida em relacao aos cursos, como eles sao desenvolvidos, qual a qualificacao dos professores, se ha algum problema no login ou na forma de pagamento, ate melhorias no curso e no site estao bem vindas, mande mensagem para o numero acima e diga oque esta acontecendo.</p>
-   </div>
+        <p class="cont">Contato</p> 
+            <form action="" method="post">
+                <label for="">Seu nome*: <input type="text"></label><br>
+                <label for="">Seu email*: <input type="email"></label><br>
+                <label for="">Assunto*: <input type="text"></label>
+                    
+            </form>
+            <p class="ababa">Mensagem*</p><br>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        
+            <form action="cursos.html" method="post">  
+                <label for=""><input type="checkbox"> ENVIAR UMA COPIA PARA VOCE</label><br><br>
+                <label for=""><input type="submit" class="enviar"></label>
+            </form>
+
+    </div>
 </body>
 </html>
