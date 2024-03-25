@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+    <style>
+        body{
+            margin-left: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(90deg, rgb(45, 32, 83) 0%, rgb(21, 21, 72) 100%);
+        }
+
+        h1{
+            padding: 50px 0px 25px 0px;
+            color: aliceblue;
+        }
+
+        .emaillabel,.senhalabel{
+            font-size: 20px;
+            color: aliceblue;
+            
+        }
+
+        .emailinput, .senhainput{
+            background-color: aliceblue;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            padding: 5px 0px 5px 20px;
+            font-size: 20px;
+            border-style: none;
+        }
+
+        .botaoenviar{
+            background-color: rgb(103, 46, 164);
+            color: aliceblue;
+            margin-top: 50px;
+            padding: 15px 50px 15px 50px;
+            border-radius: 10px;
+            border-style: none;
+            margin-left: 150px;
+        }
+        .botaoenviar:hover{
+            transition-duration: 0.4s;
+            background-color: rgb(34, 34, 97);
+        }
+
+        div{
+            text-align: center;
+            background-color: rgb(41, 16, 109);
+            width: 700px;
+            padding: 0px 0px 350px 30px;
+            border-radius: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>- Faca seu Cadastro na Script -</h1>
+        <label class="emaillabel" >Digite seu Email : <input type="email" class="emailinput"></label><br>
+        <label class="senhalabel">Digite sua Senha : <input type="password" class="senhainput"></label><br>
+        <label class="senhalabel">Digite sua senha novamente : <input type="password" class="senhainput"></label><br>
+        <a href="login.html"><label><input type="submit" class="botaoenviar"></label></a>
+    </div>
+</body>
+</html>
