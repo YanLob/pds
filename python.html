@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Script</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <style> 
+    body{
+        margin: 0;
+        font-family: 'Times New Roman';
+        background: linear-gradient(90deg, rgb(18, 18, 56) 50%, rgb(50, 28, 88) 100%);
+    }
+
+    h1{
+        padding: 50px 0px 25px 0px;
+        color: aliceblue;
+    }
+
+    .logoprincipal{
+        width: 115px;
+    }
+
+    .cabecalho{
+        display: flex;
+        font-size: 20px;
+    }
+
+    .principal{
+        background-color: rgb(111, 39, 183);
+        padding: 20px;
+        margin: 0px 39px;
+        text-decoration: none;
+        color: aliceblue;
+        border-radius: 10px;
+        width: 180px;
+        text-align: center;
+    }
+
+    .cabecalhoprim{
+        padding: 20px;
+        margin: 0px 39px;
+        text-decoration: none;
+        color: aliceblue;
+        background-color: rgb(38, 38, 80);
+        border-radius: 10px;
+        width: 180px;
+        text-align: center;
+    }
+    .cabecalhoprim:hover{
+        transition-duration: 0.3s;
+        background-color: rgb(44, 13, 129);
+    }
+
+    .sequencia1{
+        display: block;
+        background-color: aliceblue;
+        width: 300px;
+        height: 400px;
+        margin-left: 60px;
+        margin-top: 50px;
+        border-radius: 20px;
+    }
+
+    p{
+       padding: 20px;
+       font-size: 25px;
+       margin-top: 0;
+       text-align: center;
+       background-color: rgb(44, 13, 129);
+       border-radius: 18px 18px 0px 0px;
+       
+    }
+    
+    .logo{
+        width: 200px;
+        margin: 50px;
+    }
+
+    .itens{
+        display: flex;
+        justify-content: space-around;
+    }
+    .item{
+        width: 300px;
+        height: 400px;
+        background-color: white;
+        text-align: center;
+        color: aliceblue;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    a:hover{
+        transition-duration: 0.3s;
+        background-color: rgb(44, 13, 129);
+    }
+
+    .preco{
+        border-radius: 0px 0px 18px 18px;
+        margin-bottom: 0px;
+    }
+
+    .info{
+       font-size: 17px;
+       margin-top: 10px;
+       text-align: left;
+       border-radius: 18px 18px 18px 18px;
+       background-color: blueviolet;
+    }
+
+    .final{
+        font-size: 12px;
+        color: white;
+        margin-top: 280px;
+    }
+
+    </style>
+
+</head>
+<body>
+
+    <img class="logoprincipal" src="logo" width="75">
+
+    <div class="cabecalho">
+
+        <a href="python.html" class="principal">Python</a>
+        <a href="java.html" class="cabecalhoprim">Java</a>
+        <a href="login.html" class="cabecalhoprim">Login</a>
+        <a href="index.html" class="cabecalhoprim">Sobre</a>
+        <a href="contato.html" class="cabecalhoprim">Contato</a>
+
+    </div><br>
+
+    <hr>
+
+   <div class="itens">
+
+        <a href="linkcursos/pythonMundo1.html">
+            <div class="item">
+
+                <p>Curso de Python 1 40h</p>
+        
+                <img src="Python_logo_51.svg.png" class="logo">
+                <p class="preco">R$34,90</p>
+                <p class="info">Neste mundo teremos a introdução ao mundo da programação em Python aprendendo a calcular, usar modulos, condições(if..else) e adicionar cores ao Python</p>
+               </div>
+        </a>
+
+
+       
+       <a href="">
+        <div class="item">
+
+            <p>Curso de Python 2 40h</p>
+    
+            <img src="Python_logo_51.svg.png" class="logo">
+            <p class="preco">R$34,90</p>
+            <p class="info">Neste mundo aprenderemos em Python condições(if..elif), estruturas de repetição(for) e outra estrutura de repetição(while)</p>
+           </div>
+       </a>
+
+
+    
+       <a href="">
+            <div class="item">
+
+                <p>Curso de Python 3 60h</p>
+        
+                <img src="Python_logo_51.svg.png" class="logo">
+                <p class="preco">R$50,90</p>
+                <p class="info">Neste mundo aprenderemos em Python oque é tuplas, listas dicionarios, funções modularização e tratamento de erros</p>
+           </div>
+       </a>
+       
+
+   </div>
+   
+
+
+   <div class="final">
+    <p>Porque Python é o dos cursos mais comprado?<br><br>
+
+        Primeiramente, sua simplicidade e legibilidade tornam-na acessível até mesmo para iniciantes. A sintaxe limpa e intuitiva facilita o aprendizado e a compreensão.
+        
+        Mas Python não se limita a iniciantes. Sua versatilidade é impressionante. Pense nisso:
+        <br>
+        
+        E o nome? Não, não é uma referência à cobra. Monty Python’s Flying Circus, o famoso grupo humorístico, inspirou o nome. Criado por Guido van Rossum em 1991, Python continua a voar alto no mundo da programação.
+        <br><br>
+        Em resumo, Python é uma linguagem poderosa, flexível e cheia de possibilidades. Se você ainda não experimentou, talvez seja hora de mergulhar nesse universo de serpentes digitais! 🐍</p>
+   </div>
+
+</body>
+</html>
